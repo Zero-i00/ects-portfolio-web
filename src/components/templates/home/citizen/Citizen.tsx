@@ -32,7 +32,13 @@ export default function Citizen({
 				</h1>
 				<div className={styles.events}>
 					{eventLinks.map(link => (
-						<Image  width={500} height={400} src={link} alt={link} />
+						<Image
+							key={`citizen-link-${link}`}
+							width={500}
+							height={400}
+							src={link}
+							alt={link}
+						/>
 					))}
 				</div>
 			</div>

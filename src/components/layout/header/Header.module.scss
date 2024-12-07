@@ -1,17 +1,21 @@
 .header {
 	.wrapper {
-		@apply w-full bg-white flex flex-row justify-between items-center h-[100px] container;
+		@apply w-full bg-white flex flex-row justify-center lg:justify-between items-center h-[150px] lg:h-[100px] container;
 
 		.nav {
-			@apply flex flex-row gap-10;
+			@apply flex flex-col lg:flex-row gap-1 lg:gap-10;
 
 			a {
-				@apply text-blue-dark text-large duration-300;
+				@apply text-center lg:text-start text-blue-dark text-large duration-300;
 
 				&:hover {
 					@apply text-primary;
 				}
 			}
+		}
+
+		button {
+			@apply hidden lg:block;		
 		}
 	}
 }
