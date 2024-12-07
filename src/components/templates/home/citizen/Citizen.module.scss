@@ -10,7 +10,7 @@
 	}
 
 	.description {
-		@apply text-center lg:text-start text-white text-large font-medium w-full lg:w-1/3;
+		@apply text-center lg:text-start text-white text-large font-medium w-full 2xl:w-2/3;
 
 		.event-item {
 			@apply cursor-pointer duration-300;
@@ -22,13 +22,13 @@
 	}
 
 	.events {
-		@apply flex flex-1 flex-row flex-wrap justify-start items-center gap-4 lg:gap-8 my-12;
+		@apply flex flex-1 flex-row flex-wrap justify-center lg:justify-start items-center gap-4 lg:gap-8 my-12;
 
 		img {
 			width: 550px;
 			height: 400px;
 
-			@apply rounded object-cover border border-primary;
+			@apply w-full h-[500px] xl:w-[550px] xl:h-[400px] rounded object-cover border border-primary;
 		}
 	}
 }
