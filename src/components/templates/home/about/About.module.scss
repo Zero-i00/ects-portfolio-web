@@ -2,14 +2,14 @@
 	@apply bg-blue-light;
 
 	.hero {
-		@apply w-[40%];
+		@apply w-full lg:w-[40%];
 
 		.hello {
-			@apply text-blue-dark text-medium font-semibold;
+			@apply text-center lg:text-start text-blue-dark text-medium font-semibold;
 		}
 
 		.title {
-			@apply text-black text-heading font-bold my-4;
+			@apply text-center lg:text-start text-black text-large lg:text-heading font-bold my-4;
 
 			span {
 				@apply text-primary;
@@ -17,12 +17,12 @@
 		}
 
 		.description {
-			@apply text-black text-medium font-medium;
+			@apply text-center lg:text-start text-black text-medium font-medium;
 		}
 	}
 
 	.picture {
-		@apply  w-[60%] flex justify-center items-start;
+		@apply hidden lg:block w-[60%] flex justify-center items-start;
 
 		.bg {
 			@apply absolute bottom-[15%]  w-[700px] h-[400px] bg-blue-300 rounded-3xl z-10;

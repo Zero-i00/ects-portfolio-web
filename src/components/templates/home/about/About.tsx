@@ -11,7 +11,7 @@ export default function About({
 }: HTMLAttributes<HTMLSelectElement>) {
 	return (
 		<section {...rest} id={id} className={cn(styles.section, className)}>
-			<div className='container flex flex-row justify-between items-center py-12 h-screen'>
+			<div className='container flex flex-row justify-between items-center py-12 lg:h-screen'>
 				<div className={styles.hero}>
 					<p className={styles.hello}>Привет! Я Шайдуллин Артём</p>
 					<h1 className={styles.title}>
@@ -26,7 +26,7 @@ export default function About({
 						style={{
 							transform: 'none',
 						}}
-						className='my-12'
+						className='my-12 mx-auto lg:mx-0'
 						variant='primary'
 					/>
 				</div>
