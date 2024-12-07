@@ -1,0 +1,34 @@
+.section {
+	@apply bg-blue-dark flex flex-col py-24 justify-center;
+
+	.title {
+		@apply text-white text-small font-semibold;
+	}
+
+	.heading {
+		@apply text-white text-title font-bold my-4 mb-8;
+	}
+
+	.description {
+		@apply text-white text-large font-medium w-1/3;
+
+		.event-item {
+			@apply cursor-pointer duration-300;
+
+			&:hover {
+				@apply underline decoration-2 decoration-secondary duration-300;
+			}
+		}
+	}
+
+	.events {
+		@apply flex flex-1 flex-row flex-wrap justify-start items-center gap-8 my-12;
+
+		img {
+			width: 550px;
+			height: 400px;
+
+			@apply rounded object-cover border border-primary;
+		}
+	}
+}

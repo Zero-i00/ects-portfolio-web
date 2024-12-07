@@ -1,0 +1,36 @@
+
+
+.card {
+	max-width: 450px;
+	height: 450px;
+	
+	@apply flex flex-1 flex-col justify-center items-center bg-white rounded-lg border-2 border-blue-light border-b-primary duration-500 py-4 px-6 cursor-pointer;
+
+	&:hover {
+		@apply border-b-secondary duration-500;
+	}
+
+	.image {
+		@apply mx-auto;
+	}
+
+	.content {
+		@apply px-2 py-4;
+
+		.title {
+			@apply text-black text-subtitle font-semibold my-4;		
+		}
+	
+		.description {
+			@apply text-black text-medium font-medium;
+		}
+	}
+
+	.link {
+		@apply text-black text-large font-medium underline decoration-primary flex flex-row justify-start items-center gap-x-2 mt-8 overflow-hidden duration-500;
+
+		&:hover {
+			@apply text-secondary decoration-secondary duration-500;
+		}
+	}
+}

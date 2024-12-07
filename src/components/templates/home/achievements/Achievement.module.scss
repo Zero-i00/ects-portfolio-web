@@ -1,0 +1,17 @@
+
+
+.section {
+	@apply bg-white flex flex-col py-24;
+
+	.title {
+		@apply text-black text-small font-semibold;
+	}
+
+	.heading {
+		@apply text-black text-title font-bold my-4 mb-20;
+	}
+
+	.achievements {
+		@apply flex flex-row flex-wrap justify-between items-center gap-2 ;
+	}
+}

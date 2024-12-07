@@ -1,0 +1,21 @@
+
+
+.section {
+	@apply bg-white flex flex-col h-screen py-12 justify-center;
+
+	.title {
+		@apply text-black text-small font-semibold;
+	}
+
+	.header {
+		@apply flex flex-row justify-between items-center;
+	}
+
+	.heading {
+		@apply text-black text-title font-bold my-4 mb-20;
+	}
+
+	.projects {
+		@apply flex-1 flex flex-row flex-wrap justify-between items-center gap-2 ;
+	}
+}

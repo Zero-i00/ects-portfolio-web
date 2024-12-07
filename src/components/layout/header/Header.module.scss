@@ -1,0 +1,17 @@
+.header {
+	.wrapper {
+		@apply w-full bg-white flex flex-row justify-between items-center h-[100px] container;
+
+		.nav {
+			@apply flex flex-row gap-10;
+
+			a {
+				@apply text-blue-dark text-large duration-300;
+
+				&:hover {
+					@apply text-primary;
+				}
+			}
+		}
+	}
+}
