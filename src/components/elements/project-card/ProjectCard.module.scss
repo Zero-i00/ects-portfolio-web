@@ -1,8 +1,9 @@
 
 
 .card {
-	max-width: 450px;
-	height: 450px;
+	min-width: 350px;
+	width: 450px;
+	min-height: 450px;
 	
 	@apply flex flex-1 flex-col justify-center items-center bg-white rounded-lg border-2 border-blue-light border-b-primary duration-500 py-4 px-6 cursor-pointer;
 
