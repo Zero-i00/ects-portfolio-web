@@ -34,7 +34,7 @@ export default function About({
 					<div className={styles.bg} />
 					<Image
 						className={styles.i}
-						src='/png/i.png'
+						src='./png/i.png'
 						width={700}
 						height={700}
 						alt='hero'
